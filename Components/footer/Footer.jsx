@@ -10,7 +10,7 @@ const Footer = () => {
             Linear<span className={styles.ui}>UI</span>
           </h3>
           <p className={styles.description}>
-            Clean & polished UI components for your application
+          On a mission to make Internet beautiful again
           </p>
         </div>
         <div className={styles.links}>

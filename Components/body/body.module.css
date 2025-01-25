@@ -5,7 +5,7 @@
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.4;
   margin: 0;
@@ -24,7 +24,7 @@
 }
 
 .backgrond {
-  background: url("../../public/Rectangle 1.png") no-repeat center center/auto;
+  background: url("../../public/Hero Image.png") no-repeat center center/auto;
   height: 904px;
   margin-top: 67px;
 }
