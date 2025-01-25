@@ -1,0 +1,163 @@
+.footer {
+  margin-top: 140px;
+  color: white;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1174px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.wrap {
+  flex: 1;
+  min-width: 200px;
+  max-width: 334px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  margin: 0;
+}
+
+.ui {
+  font-size: 16px;
+  line-height: 19.2px;
+  vertical-align: super;
+  color: #b388ff;
+}
+
+.description {
+  margin-top: 8px;
+  font-size: 20px;
+  color: #cccccc;
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+  flex: 2;
+  max-width: 572px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 181px;
+}
+
+.column h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: bold;
+  font-weight: 500;
+}
+
+.column a {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #cccccc;
+  margin-bottom: 5px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.column a:hover {
+  color: #b388ff;
+}
+.columns {
+  width: 90px;
+}
+
+.columns h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: bold;
+  font-weight: 500;
+}
+
+.columns a {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #cccccc;
+  margin-bottom: 5px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.columns a:hover {
+  color: #b388ff;
+}
+
+.bottom {
+  max-width: 1174px;
+  margin: 80px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  line-height: 27.32px;
+  padding-top: 20px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.bottom p {
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    margin-bottom: 20px;
+  }
+
+  .bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+
+  .column h4 {
+    font-size: 0.9rem;
+  }
+
+  .column a {
+    font-size: 0.8rem;
+  }
+
+  .bottom {
+    font-size: 0.7rem;
+  }
+}
