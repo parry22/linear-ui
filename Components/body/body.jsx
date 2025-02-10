@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./body.module.css";
 import image from "../../public/Rectangle 1.png";
 import Image from "next/image";
+import Features from "../Features/Features";
 
 const body = () => {
   return (
@@ -17,6 +18,7 @@ const body = () => {
         </p>
       </div>
       <div className={styles.backgrond}></div>
+      <Features />
       <div className={styles.wrapper}>
         <h2 className={styles.wrapHeading}>Feeling something custom?</h2>
         <p className={styles.wrapText}>

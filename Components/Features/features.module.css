@@ -1,0 +1,10 @@
+.borderGradient {
+  border: 0.4px solid rgba(96, 92, 239, 1);
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(104, 100, 255, 0.2) 0%,
+    rgba(104, 100, 255, 0.14) 39%,
+    rgba(104, 100, 255, 0.08) 100%
+  );
+}
