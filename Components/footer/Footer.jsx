@@ -14,13 +14,6 @@ const Footer = () => {
           </p>
         </div>
         <div className={styles.links}>
-          <div className={styles.column}>
-            <h4>Components</h4>
-            <a href="">Wallet UI</a>
-            <a href="">Crypto Swap</a>
-            <a href="">Transaction UI</a>
-            <a href="">NFT Display Card</a>
-          </div>
           <div className={styles.columns}>
             <h4>Socials</h4>
             <a href="">Twitter</a>
