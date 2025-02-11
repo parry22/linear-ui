@@ -18,7 +18,6 @@ const Footer = () => {
             <h4>Socials</h4>
             <a href="">Twitter</a>
             <a href="">Discord</a>
-            <a href="">LinkedIn</a>
             <a href="">GitHub</a>
           </div>
           <div className={styles.column}>
