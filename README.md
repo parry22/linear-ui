@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# LinearUI
 
-First, run the development server:
+## ✨ Features
 
+- **Open-Source & Community-Driven**: Join a growing community to contribute and shape a UI kit built by developers, for developers.
+- **Customizable Design**: Tailor components to your theme without touching code—colors, radius, and more.
+- **Accessibility & Responsiveness**: WAI-ARIA compliant and optimized for all devices.
+- **10+ Components & Growing**: Pre-built, Web3-ready components for wallets, staking, charts, and more.
+- **Edge Cases Covered**: Error states, loading, and edge scenarios handled for a polished UX.
+
+## 🚀 Quick Start
+
+Get up and running in minutes:
+
+### Installation
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install web3uikit
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Usage
+Import and use components in your project:
+```jsx
+import { ConnectWallet } from 'web3uikit';
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+function App() {
+  return (
+    <div>
+      <ConnectWallet />
+    </div>
+  );
+}
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Explore more in our [Documentation](#-documentation).
 
-## Learn More
+## 🌟 Why Web3UIKit?
 
-To learn more about Next.js, take a look at the following resources:
+- **Web3-Native**: Built for blockchain apps with integrations like ethers.js and wallet providers.
+- **Time-Saving**: Pre-built components reduce boilerplate and speed up development.
+- **Scalable**: Designed to grow with your dApp, from prototype to production.
+- **Community-Powered**: Contribute ideas, code, or feedback to shape the future.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📖 Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Dive into detailed guides, API docs, and live demos:  
+👉 **[LinearUI Docs](https://yourwebsite.com/docs)**
 
-## Deploy on Vercel
+- Installation steps
+- Component usage with code examples
+- Customization options
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+We’re open-source and community-driven—your input matters!  
+
+1. Fork the repo  
+2. Create a branch (`git checkout -b feature/your-idea`)  
+3. Commit changes (`git commit -m "Add cool feature"`)  
+4. Push to your branch (`git push origin feature/your-idea`)  
+5. Open a Pull Request  
+
+See our [Contributing Guide](CONTRIBUTING.md) for details. Join the conversation on [Discord](#-community)!
+
+## 🗺️ Roadmap
+
+- [x] Core components (`ConnectWallet`, `CoinChart`)  
+- [x] NFT-focused pack (`NFTGallery`, `MintButton`)  
+- [x] DeFi widgets (`SwapWidget`, `LendingCard`)  
+- [x] Interactive playground for live customization  
+
+Vote on features in [GitHub Discussions](#-community)!
+
+## 🌐 Community
+
+Stay connected and get involved:  
+- **Discord**: [Join us](https://discord.gg/your-invite-link) for support, showcases, and chats.  
+- **X (Twitter)**: Follow [@LinearUI](https://twitter.com/LinearUI) for updates and demos.  
+- **GitHub Discussions**: Share ideas and feedback [here](https://github.com/yourusername/web3uikit/discussions).
+
+## 📜 License
+
+LinearUIKit is licensed under the [MIT License](LICENSE)—free to use, modify, and distribute.
+
+## 🧑‍💻 Contributors
+
+A huge thanks to our community!  
+- [Your Name](https://github.com/PARRY) - Creator  
+- [Add contributors here as they join]
+
+## ⭐ Support Us
+
+Love LinearUI? Help us grow:  
+- Star this repo 🌟  
+- Share it with your network  
+- Sponsor us on [GitHub Sponsors](https://github.com/sponsors/yourusername)  
+
+*Built with ❤️ for the Web3 community.*
+```
