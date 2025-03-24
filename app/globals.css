@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --font-sans: var(--font-instrument-sans);
+  }
+
+  html {
+    font-family: var(--font-sans);
+  }
+}
